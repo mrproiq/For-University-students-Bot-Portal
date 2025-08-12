@@ -43,3 +43,5 @@ services:
       - redis
     env_file:
       - ./.env
+volumes:
+  postgres_data:
