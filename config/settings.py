@@ -98,6 +98,7 @@ DATABASES = {
         'PORT': 5432,
     }
 }
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
 
 # DATABASES = {
 #     'default': {
